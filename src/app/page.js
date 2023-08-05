@@ -4,8 +4,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
+    <main className='max-w-7xl mx-auto px-5'>
       <div className="relative pt-10 min-h-[80vh] bg-white text-black justify-center flex flex-col place-items-center">
         <h1 className='text-5xl mb-6 font-semibold'>Hunting Coders</h1>
         <Image src="/code.jpg" width={237} height={158} className='rounded-lg' alt="" />

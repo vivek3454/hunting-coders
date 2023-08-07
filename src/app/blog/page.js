@@ -23,7 +23,7 @@ const Blog = async () => {
 }
 
 const getAllBlogs = async () => {
-  const response = await fetch('http://localhost:3000/api/blogs', {cache: 'no-store'});
+  const response = await fetch('http://localhost:3000/api/blogs', {cache: 'force-cache'});
   const data = await response.json();
   return data;
 }

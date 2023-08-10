@@ -1,7 +1,134 @@
 {
-    "title": "How to learn React JS",
-    "content": "<!-- #######  YAY, I AM THE SOURCE EDITOR! #########--> <h1 style=\/\"color: #5e9ca0;\/\">You can edit <span style=\"color: #2b2301;\">this demo<\/span> text!<\/h1> <h2 style=\"color: #2e6c80;\">How to use the editor:<\/h2> <p>Paste your documents in the visual editor on the left or your HTML code in the source editor in the right. <br \/>Edit any of the two areas and see the other changing in real time.&nbsp;<\/p> <p>Click the <span style=\"background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;\">Clean<\/span> button to clean your source code.<\/p> <h2 style=\"color: #2e6c80;\">Some useful features:<\/h2> <ol style=\"list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;\"> <li style=\"clear: both;\"><img style=\"float: left;\" src=\"https:\/\/html-online.com\/img\/01-interactive-connection.png\" alt=\"interactive connection\" width=\"45\" \/> Interactive source editor<\/li> <li style=\"clear: both;\"><img style=\"float: left;\" src=\"https:\/\/html-online.com\/img\/02-html-clean.png\" alt=\"html cleaner\" width=\"45\" \/> HTML Cleaning<\/li> <li style=\"clear: both;\"><img style=\"float: left;\" src=\"https:\/\/html-online.com\/img\/03-docs-to-html.png\" alt=\"Word to html\" width=\"45\" \/> Word to HTML conversion<\/li> <li style=\"clear: both;\"><img style=\"float: left;\" src=\"https:\/\/html-online.com\/img\/04-replace.png\" alt=\"replace text\" width=\"45\" \/> Find and Replace<\/li> <li style=\"clear: both;\"><img style=\"float: left;\" src=\"https:\/\/html-online.com\/img\/05-gibberish.png\" alt=\"gibberish\" width=\"45\" \/> Lorem-Ipsum generator<\/li> <li style=\"clear: both;\"><img style=\"float: left;\" src=\"https:\/\/html-online.com\/img\/6-table-div-html.png\" alt=\"html table div\" width=\"45\" \/> Table to DIV conversion<\/li> <\/ol> <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<\/p> <h2 style=\"color: #2e6c80;\">Cleaning options:<\/h2> <table class=\"editorDemoTable\"> <thead> <tr> <td>Name of the feature<\/td> <td>Example<\/td> <td>Default<\/td> <\/tr> <\/thead> <tbody> <tr> <td>Remove tag attributes<\/td> <td><img style=\"margin: 1px 15px;\" src=\"images\/smiley.png\" alt=\"laughing\" width=\"40\" height=\"16\" \/> (except <strong>img<\/strong>-<em>src<\/em> and <strong>a<\/strong>-<em>href<\/em>)<\/td> <td>&nbsp;<\/td> <\/tr> <tr> <td>Remove inline styles<\/td> <td><span style=\"color: green; font-size: 13px;\">You <strong style=\"color: blue; text-decoration: underline;\">should never<\/strong>&nbsp;use inline styles!<\/span><\/td> <td><strong style=\"font-size: 17px; color: #2b2301;\">x<\/strong><\/td> <\/tr> <tr> <td>Remove classes and IDs<\/td> <td><span id=\"demoId\">Use classes to <strong class=\"demoClass\">style everything<\/strong>.<\/span><\/td> <td><strong style=\"font-size: 17px; color: #2b2301;\">x<\/strong><\/td> <\/tr> <tr> <td>Remove all tags<\/td> <td>This leaves <strong style=\"color: blue;\">only the plain<\/strong> <em>text<\/em>. <img style=\"margin: 1px;\" src=\"images\/smiley.png\" alt=\"laughing\" width=\"16\" height=\"16\" \/><\/td> <td>&nbsp;<\/td> <\/tr> <tr> <td>Remove successive &amp;nbsp;s<\/td> <td>Never use non-breaking spaces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to set margins.<\/td> <td><strong style=\"font-size: 17px; color: #2b2301;\">x<\/strong><\/td> <\/tr> <tr> <td>Remove empty tags<\/td> <td>Empty tags should go!<\/td> <td>&nbsp;<\/td> <\/tr> <tr> <td>Remove tags with one &amp;nbsp;<\/td> <td>This makes&nbsp;no sense!<\/td> <td><strong style=\"font-size: 17px; color: #2b2301;\">x<\/strong><\/td> <\/tr> <tr> <td>Remove span tags<\/td> <td>Span tags with <span style=\"color: green; font-size: 13px;\">all styles<\/span><\/td> <td><strong style=\"font-size: 17px; color: #2b2301;\">x<\/strong><\/td> <\/tr> <tr> <td>Remove images<\/td> <td>I am an image: <img src=\"images\/smiley.png\" alt=\"laughing\" \/><\/td> <td>&nbsp;<\/td> <\/tr> <tr> <td>Remove links<\/td> <td><a href=\"https:\/\/html-online.com\" rel=\"nofollow\">This is<\/a> a link.<\/td> <td>&nbsp;<\/td> <\/tr> <tr> <td>Remove tables<\/td> <td>Takes everything out of the table.<\/td> <td>&nbsp;<\/td> <\/tr> <tr> <td>Replace table tags with structured divs<\/td> <td>This text is inside a table.<\/td> <td>&nbsp;<\/td> <\/tr> <tr> <td>Remove comments<\/td> <td>This is only visible in the source editor <!-- HELLO! --><\/td> <td><strong style=\"font-size: 17px; color: #2b2301;\">x<\/strong><\/td> <\/tr> <tr> <td>Encode special characters<\/td> <td><span style=\"color: red; font-size: 17px;\">&hearts;<\/span> <strong style=\"font-size: 20px;\">\u263A \u2605<\/strong> &gt;&lt;<\/td> <td><strong style=\"font-size: 17px; color: #2b2301;\">x<\/strong><\/td> <\/tr> <tr> <td>Set new lines and text indents<\/td> <td>Organize the tags in a nice tree view.<\/td> <td>&nbsp;<\/td> <\/tr> <\/tbody> <\/table> <p><strong>&nbsp;<\/strong><\/p> <p><strong>Save this link into your bookmarks and share it with your friends. It is all FREE! <\/strong><br \/><strong>Enjoy!<\/strong><\/p> <p><strong>&nbsp;<\/strong><\/p>",
-    "metadesc": "JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+    "heading": "How to learn React JS",
+    "introduction": "React is an open-source JavaScript library used for building user interfaces (UIs) and user interface components for web applications. It was developed by Facebook and is widely used in the web development community. React allows developers to create reusable UI components that update efficiently and automatically as the application's state changes. It follows a declarative approach, meaning you describe how your UI should look based on the current state, and React takes care of updating the UI when the state changes.",
+    "content": [
+      {
+        "title": "Prerequisites",
+        "points": [
+          "Basic understanding of HTML, CSS, and JavaScript is crucial.",
+          "Familiarity with programming concepts and web development is helpful."
+        ]
+      },
+      {
+        "title": "Learn JavaScript Fundamentals",
+        "points": [
+          "Make sure you have a solid grasp of JavaScript concepts such as variables, functions, arrays, objects, and basic DOM manipulation."
+        ]
+      },
+      {
+        "title": "HTML and CSS",
+        "points": [
+          "Understand the fundamentals of HTML for structuring content and CSS for styling web pages."
+        ]
+      },
+      {
+        "title": "Setup and Environment",
+        "points": [
+          "Install Node.js and npm (Node Package Manager) for working with React.",
+          "Choose a code editor, such as Visual Studio Code, for writing your React code."
+        ]
+      },
+      {
+        "title": "React Documentation",
+        "points": [
+          "Start with the official React documentation. This is an excellent resource that covers React's core concepts and provides code examples."
+        ]
+      },
+      {
+        "title": "Online Courses and Tutorials",
+        "points": [
+          "Enroll in online courses and tutorials on platforms like Udemy, Coursera, Codecademy, and freeCodeCamp. Look for highly rated courses specifically focused on React.js."
+        ]
+      },
+      {
+        "title": "Video Tutorials",
+        "points": [
+          "Watch video tutorials on platforms like YouTube. Channels like 'Traversy Media,' 'Academind,' and the official 'React' channel offer great content."
+        ]
+      },
+      {
+        "title": "Practice Projects",
+        "points": [
+          "Hands-on experience is crucial. Start by building small React projects to reinforce your learning.",
+          "Create a 'To-Do List' app, a simple counter, or a weather app to apply what you've learned."
+        ]
+      },
+      {
+        "title": "React Components",
+        "points": [
+          "Understand React components, which are the building blocks of your application. Learn about functional components and class components."
+        ]
+      },
+      {
+        "title": "State and Props",
+        "points": [
+          "Learn about state and props, two fundamental concepts in React.",
+          "Understand how to manage and update component state and how to pass data between components using props."
+        ]
+      },
+      {
+        "title": "Hooks",
+        "points": [
+          "Study React hooks, such as useState, useEffect, and useContext, which simplify state management and side effects."
+        ]
+      },
+      {
+        "title": "Routing",
+        "points": [
+          "Learn about client-side routing using libraries like React Router to navigate between different views in your application."
+        ]
+      },
+      {
+        "title": "Styling in React",
+        "points": [
+          "Explore different methods for styling React components, including inline styles, CSS modules, and popular libraries like styled-components."
+        ]
+      },
+      {
+        "title": "API Integration",
+        "points": [
+          "Learn how to fetch data from APIs and display it in your React components."
+        ]
+      },
+      {
+        "title": "State Management (Optional)",
+        "points": [
+          "Study more advanced state management solutions like Redux or MobX for handling complex application states."
+        ]
+      },
+      {
+        "title": "Testing and Debugging",
+        "points": [
+          "Familiarize yourself with testing tools like Jest and React Testing Library. Learn to debug your React applications effectively."
+        ]
+      },
+      {
+        "title": "Community and Forums",
+        "points": [
+          "Join online communities like Stack Overflow, Reddit (r/reactjs), and Discord servers related to React to ask questions and learn from others."
+        ]
+      },
+      {
+        "title": "Personal Projects",
+        "points": [
+          "Undertake larger projects to apply your knowledge and showcase your skills to potential employers or clients."
+        ]
+      },
+      {
+        "title": "Documentation and Updates",
+        "points": [
+          "Stay up-to-date with React's evolving features and best practices by regularly referring to the official documentation and blogs."
+        ]
+      },
+      {
+        "title": "Continuous Learning",
+        "points": [
+          "React is continuously evolving. Keep learning about new features and improvements in the React ecosystem.",
+          "Remember, learning React.js takes time and practice. Don't rush through the concepts; focus on building a strong foundation before moving on to more complex topics. Patience and persistence will help you become a proficient React developer."
+        ]
+      }
+    ],
     "author": "vivek",
+    "metadesc": "React is an open-source JavaScript library used for building user interfaces (UIs) and user interface components for web applications.",
     "slug": "how-to-learn-reactjs"
 }

@@ -114,14 +114,6 @@
                 "Online courses and video tutorials.",
                 "Community forums, blogs, and social media groups."
             ]
-        },
-        {
-            "title": "Conclusion",
-            "points": [
-                "Learning Next.js opens up a world of possibilities for building high-performance, server-rendered React applications.",
-                "By following this comprehensive guide, you'll develop a solid foundation in Next.js and be well-equipped to create dynamic and efficient web experiences.",
-                "Remember, practice and experimentation are key to mastering Next.js, so dive in, explore, and embark on your journey to becoming a proficient Next.js developer."
-            ]
         }
     ],
     "conclusion":"Learning Next.js opens up a world of possibilities for building high-performance, server-rendered React applications. By following this comprehensive guide, you'll develop a solid foundation in Next.js and be well-equipped to create dynamic and efficient web experiences.Remember, practice and experimentation are key to mastering Next.js, so dive in, explore, and embark on your journey to becoming a proficient Next.js developer.",

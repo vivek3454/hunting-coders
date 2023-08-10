@@ -12,7 +12,7 @@ const Blog = async () => {
           {blogs.map((blog, i) => (
             <div key={i} className="mb-5">
               <Link href={`/blogpost/${blog.slug}`}>
-                <h3 className='text-xl mb-1 hover:text-gray-700 font-semibold'>{blog.title}</h3>
+                <h3 className='text-xl mb-1 hover:text-gray-700 font-semibold'>{blog.heading}</h3>
               </Link>
               <p className='text-sm'>{blog.metadesc.substr(0, 120)}...</p>
             </div>
